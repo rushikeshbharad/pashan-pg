@@ -1,0 +1,20 @@
+{
+  "name": "pashan-pg",
+  "version": "1.0.0",
+  "description": "Photo gallery carousel hosted on GitHub Pages",
+  "private": true,
+  "homepage": "https://rushikeshbharad.github.io/pashan-pg/",
+  "scripts": {
+    "start": "npx http-server -p 8000 -c-1",
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0",
+    "http-server": "^14.1.1"
+  },
+  "keywords": [
+    "photo-gallery",
+    "carousel",
+    "github-pages"
+  ]
+}
