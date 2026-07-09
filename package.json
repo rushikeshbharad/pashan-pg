@@ -6,7 +6,7 @@
   "homepage": "https://rushikeshbharad.github.io/pashan-pg/",
   "scripts": {
     "start": "npx http-server -p 8000 -c-1",
-    "deploy": "gh-pages -d ."
+    "deploy": "gh-pages -d . -b gh-pages"
   },
   "devDependencies": {
     "gh-pages": "^6.1.0",
